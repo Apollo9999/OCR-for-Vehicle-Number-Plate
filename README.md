@@ -37,7 +37,7 @@ The project has been developed using TensorFlow for License Plate detection from
 #### TRAINING PHASE -- IMAGE LABELING
 
 * Generated the set of 500 images (Cars along with number plate). Then annotated the set of images by drawing the boundary box over the number plates to send it for the training phase as Augmentor library had.
-  * The Annoation gives the co-ordinates of license plates such as **(xmin, ymin, xmax, ymax)**
+  * The Annotation gives the co-ordinates of license plates such as **(xmin, ymin, xmax, ymax)**
   * Then the co-ordinates are saved into a **XML** file by Augmentor library.
   * All the XML files are grouped and the Co-ordinates are saved in **CSV** file.
   * Then the CSV file is converted into **TensorFlow record format**.
