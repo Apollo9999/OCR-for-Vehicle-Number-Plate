@@ -45,7 +45,7 @@ The project has been developed using TensorFlow for License Plate detection from
 
 #### GPU TRAINING
 
-* **Tensorflow-gpu** versionwas used to send the set of annotated images were sent into the **YOLOv3** network (Tf object detection API was used), where the metrics such as model learning rate, batch of images sent into the network and evaluation configurations were set. The training For object detection was done on Colab.
+* **Tensorflow-gpu** version  used to send the set of annotated images were sent into the **YOLOv3** network (Tf object detection API was used), where the metrics such as model learning rate, batch of images sent into the network and evaluation configurations were set. The training For object detection was done on Colab.
 For OCR: tesseract trained on a dataset of 35000 low quality digits dataset.
 
 #### OCR PART
